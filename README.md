@@ -1,61 +1,51 @@
-##React Native To-Do App
+# React Native To-Do App
 
-A simple and interactive To-Do application built with React Native, allowing users to manage tasks efficiently with a clean UI and local storage support.
+A simple and interactive **To-Do application** built with **React Native**, allowing users to manage tasks efficiently with a clean UI and local storage support.
 
-##Features
+## Features
 
-Add, delete, and mark tasks as completed.
+- Add, delete, and mark tasks as completed.
+- Persistent storage using **AsyncStorage**.
+- Responsive UI with a modern design.
+- Smooth task input and list management.
+- Graphical representation of tasks using **BarChart**.
 
-Persistent storage using AsyncStorage.
+## Screenshots
 
-Responsive UI with a modern design.
-
-Task input and list management with smooth interactions.
-
-Graphical representation of tasks using BarChart.
-
-##Screenshots
-<img width="1920" height="1080" alt="Screenshot 2025-09-24 163928" src="https://github.com/user-attachments/assets/91bd6a15-40eb-4c07-8bb8-0a23e27b9503" />
+<img width="1920" height="1080" alt="Screenshot 2025-09-24 163928" src="https://github.com/user-attachments/assets/91bd6a15-40eb-4c07-8bb8-0a23e27b9503" /> 
 <img width="1920" height="1080" alt="Screenshot 2025-09-24 163936" src="https://github.com/user-attachments/assets/6244819b-a2a8-499d-a6d4-34f76c1eea67" />
 
+*Replace the above links with your actual screenshots.*
 
-##Tech Stack
+## Tech Stack
 
-React Native
+- **React Native**  
+- **Expo**  
+- **AsyncStorage** for local data storage  
+- **react-native-chart-kit** for charts  
+- **react-native-safe-area-context** for safe UI on devices  
 
+## Installation
 
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/yourusername/todo-app.git
+Navigate to the project folder:
 
-Expo
-
-AsyncStorage for local data storage
-
-react-native-chart-kit for charts
-
-react-native-safe-area-context for safe UI on devices
-
-##Installation
-
-
-1.Clone the repository:
-
-git clone https://github.com/yourusername/todo-app.git
-
-2.Navigate to the project folder:
-
+bash
+Copy code
 cd todo-app
+Install dependencies:
 
-
-3.Install dependencies:
-
+bash
+Copy code
 npm install
+Run the app:
 
-
-4.Run the app:
-
+bash
+Copy code
 npx expo start
-
-##Usage
-
+Usage
 Open the app on a device or emulator.
 
 Add a task using the input field.
@@ -64,65 +54,36 @@ Mark tasks as completed or delete them.
 
 View task completion stats in the chart section.
 
-##Contributing
+Contributing
+Contributions are welcome!
 
-#Contributions are welcome!
+Fork the project.
 
-Fork the project
+Create a branch:
 
-Create a branch (git checkout -b feature-name)
+bash
+Copy code
+git checkout -b feature-name
+Commit your changes:
 
-Commit your changes (git commit -m 'Add some feature')
+bash
+Copy code
+git commit -m "Add some feature"
+Push to the branch:
 
-Push to the branch (git push origin feature-name)
+bash
+Copy code
+git push origin feature-name
+Create a Pull Request.
 
-Create a Pull Request# Welcome to your Expo app 👋
+License
+This project is licensed under the MIT License.
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Learn More
+This project was bootstrapped with Expo.
 
-## Get started
+Expo Documentation: https://docs.expo.dev/
 
-1. Install dependencies
+Learn Expo Tutorial: Follow step-by-step tutorials to build Android, iOS, and web apps.
 
-   ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Community: Join the Expo community on Discord or explore the GitHub repository.
