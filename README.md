@@ -1,8 +1,8 @@
-React Native To-Do App
+##React Native To-Do App
 
 A simple and interactive To-Do application built with React Native, allowing users to manage tasks efficiently with a clean UI and local storage support.
 
-Features
+##Features
 
 Add, delete, and mark tasks as completed.
 
@@ -14,14 +14,16 @@ Task input and list management with smooth interactions.
 
 Graphical representation of tasks using BarChart.
 
-Screenshots
+##Screenshots
+<img width="1920" height="1080" alt="Screenshot 2025-09-24 163928" src="https://github.com/user-attachments/assets/91bd6a15-40eb-4c07-8bb8-0a23e27b9503" />
+<img width="1920" height="1080" alt="Screenshot 2025-09-24 163936" src="https://github.com/user-attachments/assets/6244819b-a2a8-499d-a6d4-34f76c1eea67" />
 
 
-Replace with actual screenshot
-
-Tech Stack
+##Tech Stack
 
 React Native
+
+
 
 Expo
 
@@ -31,28 +33,28 @@ react-native-chart-kit for charts
 
 react-native-safe-area-context for safe UI on devices
 
-Installation
+##Installation
 
-Clone the repository:
+
+1.Clone the repository:
 
 git clone https://github.com/yourusername/todo-app.git
 
-
-Navigate to the project folder:
+2.Navigate to the project folder:
 
 cd todo-app
 
 
-Install dependencies:
+3.Install dependencies:
 
 npm install
 
 
-Run the app:
+4.Run the app:
 
 npx expo start
 
-Usage
+##Usage
 
 Open the app on a device or emulator.
 
@@ -62,9 +64,9 @@ Mark tasks as completed or delete them.
 
 View task completion stats in the chart section.
 
-Contributing
+##Contributing
 
-Contributions are welcome!
+#Contributions are welcome!
 
 Fork the project
 
