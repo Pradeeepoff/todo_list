@@ -1,4 +1,80 @@
-# Welcome to your Expo app 👋
+React Native To-Do App
+
+A simple and interactive To-Do application built with React Native, allowing users to manage tasks efficiently with a clean UI and local storage support.
+
+Features
+
+Add, delete, and mark tasks as completed.
+
+Persistent storage using AsyncStorage.
+
+Responsive UI with a modern design.
+
+Task input and list management with smooth interactions.
+
+Graphical representation of tasks using BarChart.
+
+Screenshots
+
+
+Replace with actual screenshot
+
+Tech Stack
+
+React Native
+
+Expo
+
+AsyncStorage for local data storage
+
+react-native-chart-kit for charts
+
+react-native-safe-area-context for safe UI on devices
+
+Installation
+
+Clone the repository:
+
+git clone https://github.com/yourusername/todo-app.git
+
+
+Navigate to the project folder:
+
+cd todo-app
+
+
+Install dependencies:
+
+npm install
+
+
+Run the app:
+
+npx expo start
+
+Usage
+
+Open the app on a device or emulator.
+
+Add a task using the input field.
+
+Mark tasks as completed or delete them.
+
+View task completion stats in the chart section.
+
+Contributing
+
+Contributions are welcome!
+
+Fork the project
+
+Create a branch (git checkout -b feature-name)
+
+Commit your changes (git commit -m 'Add some feature')
+
+Push to the branch (git push origin feature-name)
+
+Create a Pull Request# Welcome to your Expo app 👋
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
